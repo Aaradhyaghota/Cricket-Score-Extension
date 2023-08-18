@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+body {
+    min-width: 500px;
+    min-height: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color:#350222; */
+
+            
+}
+        
+.top{
+    font-size: 30px;
+    /* border: 2px solid; */
+    text-align: center;
+    /* background-color:    #de73a9; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 5px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+    background-color: rgb(255, 128, 0);
+    
+
+}
+.container{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* background-color: #7A1354; */
+    border-radius: 10%;
+    background-image: linear-gradient(180deg, rgb(255, 255, 255),rgb(255, 128, 0));
+    font-size: 15px;
+    
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item{
+    /* border: 1px solid; */
+    z-index:1 ;
+    margin: 3px;
+    /* background-color: white; */
+}

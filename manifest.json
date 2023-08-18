@@ -1,0 +1,15 @@
+{
+    "name": "Cricket score live",
+    "version": "1.0.0",
+    "description": "Best extension in the world",
+    "manifest_version": 3,
+    "author": "Aaradhya Ghota",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Matches Scores"
+    },
+    "icons" : {
+        "128": "./icons/cricket.jpg",
+        "64": "./icons/64.png"
+    } 
+}
